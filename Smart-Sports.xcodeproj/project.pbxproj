@@ -3,23 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301F2003534685DE5C0A1CB0 /* Pods_Smart_Sports.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D20E8A084AE75DE781E071 /* Pods_Smart_Sports.framework */; };
+		90489EAC25C6752C002A2ECD /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90489EAB25C6752C002A2ECD /* AppData.swift */; };
+		90489EAF25C67AD1002A2ECD /* AppData.json in Resources */ = {isa = PBXBuildFile; fileRef = 90489EAE25C67AD1002A2ECD /* AppData.json */; };
+		90489EB825C6893B002A2ECD /* SportPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90489EB725C6893B002A2ECD /* SportPage.swift */; };
 		9058B7F825C18779008FF0CC /* Smart_SportsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058B7F725C18779008FF0CC /* Smart_SportsApp.swift */; };
 		9058B7FA25C18779008FF0CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058B7F925C18779008FF0CC /* ContentView.swift */; };
 		9058B7FC25C1877C008FF0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9058B7FB25C1877C008FF0CC /* Assets.xcassets */; };
 		9058B7FF25C1877C008FF0CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9058B7FE25C1877C008FF0CC /* Preview Assets.xcassets */; };
+		9058B80925C187F4008FF0CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9058B80825C187F3008FF0CC /* GoogleService-Info.plist */; };
+		90A84A1625CFD4D00076FBB2 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A84A1525CFD4D00076FBB2 /* TaskViewModel.swift */; };
+		90A84A1925CFDB8E0076FBB2 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A84A1825CFDB8E0076FBB2 /* TestViewModel.swift */; };
+		90A84A1D25CFF8DB0076FBB2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A84A1C25CFF8DB0076FBB2 /* Test.swift */; };
+		90AE9AFE25C5AA05004DBDE5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE9AFD25C5AA05004DBDE5 /* Home.swift */; };
+		90AE9B0125C5AA2B004DBDE5 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE9B0025C5AA2B004DBDE5 /* LoginPage.swift */; };
+		90E9302725D7BC0E0095101E /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9302625D7BC0E0095101E /* UserViewModel.swift */; };
+		90E9302B25D7C6560095101E /* Home2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9302A25D7C6560095101E /* Home2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45D20E8A084AE75DE781E071 /* Pods_Smart_Sports.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Sports.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE7B76235E472AA64FD05AE /* Pods-Smart-Sports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart-Sports.release.xcconfig"; path = "Target Support Files/Pods-Smart-Sports/Pods-Smart-Sports.release.xcconfig"; sourceTree = "<group>"; };
+		90489EAB25C6752C002A2ECD /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		90489EAE25C67AD1002A2ECD /* AppData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppData.json; sourceTree = "<group>"; };
+		90489EB725C6893B002A2ECD /* SportPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportPage.swift; sourceTree = "<group>"; };
 		9058B7F425C18779008FF0CC /* Smart-Sports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart-Sports.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9058B7F725C18779008FF0CC /* Smart_SportsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_SportsApp.swift; sourceTree = "<group>"; };
 		9058B7F925C18779008FF0CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9058B7FB25C1877C008FF0CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9058B7FE25C1877C008FF0CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9058B80025C1877C008FF0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9058B80825C187F3008FF0CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		90A84A1525CFD4D00076FBB2 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		90A84A1825CFDB8E0076FBB2 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		90A84A1C25CFF8DB0076FBB2 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		90AE9AFD25C5AA05004DBDE5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		90AE9B0025C5AA2B004DBDE5 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		90E9302625D7BC0E0095101E /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		90E9302A25D7C6560095101E /* Home2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2.swift; sourceTree = "<group>"; };
+		CF9C17406791FC257C0BA180 /* Pods-Smart-Sports.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart-Sports.debug.xcconfig"; path = "Target Support Files/Pods-Smart-Sports/Pods-Smart-Sports.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301F2003534685DE5C0A1CB0 /* Pods_Smart_Sports.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90489EB125C67D84002A2ECD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90489EAE25C67AD1002A2ECD /* AppData.json */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		9058B7EB25C18779008FF0CC = {
 			isa = PBXGroup;
 			children = (
 				9058B7F625C18779008FF0CC /* Smart-Sports */,
 				9058B7F525C18779008FF0CC /* Products */,
+				C2755F53A6FFA2EF9AA5873D /* Pods */,
+				EACDB9B02144F6DF93D220E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,10 +91,14 @@
 			isa = PBXGroup;
 			children = (
 				9058B7F725C18779008FF0CC /* Smart_SportsApp.swift */,
-				9058B7F925C18779008FF0CC /* ContentView.swift */,
+				90AE9B0325C5AA39004DBDE5 /* Views */,
+				90489EB125C67D84002A2ECD /* Resources */,
+				90E9303025D7CBD70095101E /* Models */,
+				90A84A1F25CFF8E50076FBB2 /* Test */,
 				9058B7FB25C1877C008FF0CC /* Assets.xcassets */,
-				9058B80025C1877C008FF0CC /* Info.plist */,
+				9058B80825C187F3008FF0CC /* GoogleService-Info.plist */,
 				9058B7FD25C1877C008FF0CC /* Preview Content */,
+				9058B80025C1877C008FF0CC /* Info.plist */,
 			);
 			path = "Smart-Sports";
 			sourceTree = "<group>";
@@ -69,6 +111,54 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		90A84A1F25CFF8E50076FBB2 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				90A84A1825CFDB8E0076FBB2 /* TestViewModel.swift */,
+				90A84A1C25CFF8DB0076FBB2 /* Test.swift */,
+				90A84A1525CFD4D00076FBB2 /* TaskViewModel.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		90AE9B0325C5AA39004DBDE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90AE9B0025C5AA2B004DBDE5 /* LoginPage.swift */,
+				90AE9AFD25C5AA05004DBDE5 /* Home.swift */,
+				90E9302A25D7C6560095101E /* Home2.swift */,
+				90489EB725C6893B002A2ECD /* SportPage.swift */,
+				9058B7F925C18779008FF0CC /* ContentView.swift */,
+				90E9302625D7BC0E0095101E /* UserViewModel.swift */,
+				90489EAB25C6752C002A2ECD /* AppData.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		90E9303025D7CBD70095101E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2755F53A6FFA2EF9AA5873D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF9C17406791FC257C0BA180 /* Pods-Smart-Sports.debug.xcconfig */,
+				5BE7B76235E472AA64FD05AE /* Pods-Smart-Sports.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EACDB9B02144F6DF93D220E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45D20E8A084AE75DE781E071 /* Pods_Smart_Sports.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9058B80325C1877C008FF0CC /* Build configuration list for PBXNativeTarget "Smart-Sports" */;
 			buildPhases = (
+				22E4CA7C7A5F4980203467F1 /* [CP] Check Pods Manifest.lock */,
 				9058B7F025C18779008FF0CC /* Sources */,
 				9058B7F125C18779008FF0CC /* Frameworks */,
 				9058B7F225C18779008FF0CC /* Resources */,
+				ABA0078E195270780FE60ECE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +220,54 @@
 			files = (
 				9058B7FF25C1877C008FF0CC /* Preview Assets.xcassets in Resources */,
 				9058B7FC25C1877C008FF0CC /* Assets.xcassets in Resources */,
+				9058B80925C187F4008FF0CC /* GoogleService-Info.plist in Resources */,
+				90489EAF25C67AD1002A2ECD /* AppData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22E4CA7C7A5F4980203467F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smart-Sports-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA0078E195270780FE60ECE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smart-Sports/Pods-Smart-Sports-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smart-Sports/Pods-Smart-Sports-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smart-Sports/Pods-Smart-Sports-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9058B7F025C18779008FF0CC /* Sources */ = {
@@ -139,7 +275,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9058B7FA25C18779008FF0CC /* ContentView.swift in Sources */,
+				90A84A1925CFDB8E0076FBB2 /* TestViewModel.swift in Sources */,
+				90A84A1D25CFF8DB0076FBB2 /* Test.swift in Sources */,
+				90E9302725D7BC0E0095101E /* UserViewModel.swift in Sources */,
+				90A84A1625CFD4D00076FBB2 /* TaskViewModel.swift in Sources */,
+				90489EB825C6893B002A2ECD /* SportPage.swift in Sources */,
+				90AE9AFE25C5AA05004DBDE5 /* Home.swift in Sources */,
 				9058B7F825C18779008FF0CC /* Smart_SportsApp.swift in Sources */,
+				90489EAC25C6752C002A2ECD /* AppData.swift in Sources */,
+				90AE9B0125C5AA2B004DBDE5 /* LoginPage.swift in Sources */,
+				90E9302B25D7C6560095101E /* Home2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +409,7 @@
 		};
 		9058B80425C1877C008FF0CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9C17406791FC257C0BA180 /* Pods-Smart-Sports.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +432,7 @@
 		};
 		9058B80525C1877C008FF0CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE7B76235E472AA64FD05AE /* Pods-Smart-Sports.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

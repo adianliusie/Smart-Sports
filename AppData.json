@@ -1,0 +1,64 @@
+[
+    {
+        "sport_name": "football",
+        "image_name": "football",
+        "challenges":[
+            {
+                "challenge":"crossbar Challenge",
+                "description":"For this challenge you have 1 minute to try to hit the cross bar as many times as you can. Do you think you have what it takes to bend it like Beckham?"
+            },
+            {
+                "challenge":"penalty Shootout",
+                "description":"For this challenge you have 1 minute to try to hit the cross bar as many times as you can. Do you think you have what it takes to bend it like Beckham?"
+            }
+            
+        ]
+    },
+    {
+        "sport_name": "basketball",
+        "image_name": "basketball",
+        "challenges":[
+            {
+                "challenge":"crossbar Challenge",
+                "description":"For this challenge you have 1 minute to try to hit the cross bar as many times as you can. Do you think you have what it takes to bend it like Beckham?"
+            },
+            {
+                "challenge":"penalty Shootout",
+                "description":"For this challenge you have 1 minute to try to hit the cross bar as many times as you can. Do you think you have what it takes to bend it like Beckham?"
+            }
+        ]
+    },
+    {
+        "sport_name": "tabletennis",
+        "image_name": "tabletennis",
+    },
+    {
+        "sport_name": "darts",
+        "image_name": "darts",
+    },
+    {
+        "sport_name": "sport1",
+        "image_name": "darts",
+    },
+    {
+        "sport_name": "sport2",
+        "image_name": "darts",
+    },
+    {
+        "sport_name": "sport3",
+        "image_name": "darts",
+    },
+    {
+        "sport_name": "sport4",
+        "image_name": "darts",
+    },
+    {
+        "sport_name": "sport5",
+        "image_name": "darts",
+    },
+    {
+        "sport_name": "sport6",
+        "image_name": "darts",
+    },
+]
+ 
